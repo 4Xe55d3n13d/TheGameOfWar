@@ -9,7 +9,6 @@ commence = str(input("Commence Battle? Yes or No.").lower())
 def cardPicker(comp,play):
     cards = ["",""]
 
-    onecards = ["1H","1D","1S","1C"]
     twocards = ["2H","2D","2S","2C"]
     threecards = ["3H","3D","3S","3C"]
     fourcards = ["4H","4D","4S","4C"]
@@ -24,8 +23,6 @@ def cardPicker(comp,play):
     thirteenroyalty = ["AH","AD","AS","AC"] 
 
     match comp:
-        case 1:
-            cards[0] = random.choice(onecards)
         case 2:
             cards[0] = random.choice(twocards)
         case 3:
@@ -51,8 +48,6 @@ def cardPicker(comp,play):
         case 13:
             cards[0] = random.choice(thirteenroyalty)
     match play:
-        case 1:
-            cards[1] = random.choice(onecards)
         case 2:
             cards[1] = random.choice(twocards)
         case 3:
@@ -80,7 +75,7 @@ def cardPicker(comp,play):
     return cards
 
 while(commence == "yes"):
-    values = [1,2,3,4,5,6,7,8,9,10,11,12,13]
+    values = [2,3,4,5,6,7,8,9,10,11,12,13]
     
     cpu = random.choice(values)
     player = random.choice(values)
