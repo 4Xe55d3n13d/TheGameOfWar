@@ -1,5 +1,4 @@
-import sys
-import random
+
 from random import choice
 
 print("================")
@@ -16,8 +15,8 @@ def cardPicker(comp,play):
 while(commence == "yes"):
     values = list(range(2,12))
     
-    cpu = random.choice(values)
-    player = random.choice(values)
+    cpu = choice(values)
+    player = choice(values)
     cardsDrawn = cardPicker(cpu,player)
 
     print("You drew a " + cardsDrawn[1])
