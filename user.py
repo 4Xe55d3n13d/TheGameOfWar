@@ -14,7 +14,7 @@ def cardPicker(comp,play):
     return [choice(deck[comp]),choice(deck[play])]
 
 while(commence == "yes"):
-    values = [2,3,4,5,6,7,8,9,10,11]
+    values = list(range(2,12))
     
     cpu = random.choice(values)
     player = random.choice(values)
