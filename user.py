@@ -29,4 +29,4 @@ while(commence == "yes"):
     else:
         print("Draw.")
 
-    commence = str(input("Commence Another Battle? Yes or No. ").lower()) 
+    commence = input("Commence Another Battle? Yes or No. ").lower()
