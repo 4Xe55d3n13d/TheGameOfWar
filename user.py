@@ -6,7 +6,7 @@ print("================")
 print("The Game of War.")
 print("by allaccessdenied.")
 print("================")
-commence = str(input("Commence Battle? Yes or No.").lower())
+commence = input("Commence Battle? Yes or No.").lower()
 
 def cardPicker(comp,play):
     vals = list(range(2, 11)) + list('JQKA')
