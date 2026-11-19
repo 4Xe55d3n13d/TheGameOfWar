@@ -1,4 +1,5 @@
 # The Game Of War. By allaccessdenied (@4Xe55d3n13d on GitHub)
+# NO AI WAS USED TO MAKE THIS GAME.
 A simple, automated War simulator based on one of my favorite childhood games made using Python 3.
 # 
 # How to Play:
